@@ -15,6 +15,7 @@
 		612201D51B9F58BB00337693 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 612201D31B9F58BB00337693 /* LaunchScreen.xib */; };
 		612201E11B9F58BB00337693 /* CatalogoEmpresasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 612201E01B9F58BB00337693 /* CatalogoEmpresasTests.m */; };
 		612201EE1B9F65AD00337693 /* Empresa.m in Sources */ = {isa = PBXBuildFile; fileRef = 612201ED1B9F65AD00337693 /* Empresa.m */; };
+		61F73B061BA06DDF0022C462 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 61F73B051BA06DDF0022C462 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		612201E01B9F58BB00337693 /* CatalogoEmpresasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatalogoEmpresasTests.m; sourceTree = "<group>"; };
 		612201EC1B9F65AD00337693 /* Empresa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empresa.h; sourceTree = "<group>"; };
 		612201ED1B9F65AD00337693 /* Empresa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empresa.m; sourceTree = "<group>"; };
+		61F73B051BA06DDF0022C462 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		612201B81B9F58BB00337693 = {
 			isa = PBXGroup;
 			children = (
+				61F73B051BA06DDF0022C462 /* README.md */,
 				612201C31B9F58BB00337693 /* CatalogoEmpresas */,
 				612201DD1B9F58BB00337693 /* CatalogoEmpresasTests */,
 				612201C21B9F58BB00337693 /* Products */,
@@ -226,6 +229,7 @@
 			files = (
 				612201CD1B9F58BB00337693 /* ViewController.m in Sources */,
 				612201EE1B9F65AD00337693 /* Empresa.m in Sources */,
+				61F73B061BA06DDF0022C462 /* README.md in Sources */,
 				612201CA1B9F58BB00337693 /* AppDelegate.m in Sources */,
 				612201C71B9F58BB00337693 /* main.m in Sources */,
 			);
@@ -424,6 +428,7 @@
 				612201E61B9F58BB00337693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		612201E71B9F58BB00337693 /* Build configuration list for PBXNativeTarget "CatalogoEmpresasTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				612201E91B9F58BB00337693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
