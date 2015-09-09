@@ -14,6 +14,7 @@
 		612201D21B9F58BB00337693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612201D11B9F58BB00337693 /* Images.xcassets */; };
 		612201D51B9F58BB00337693 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 612201D31B9F58BB00337693 /* LaunchScreen.xib */; };
 		612201E11B9F58BB00337693 /* CatalogoEmpresasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 612201E01B9F58BB00337693 /* CatalogoEmpresasTests.m */; };
+		612201EE1B9F65AD00337693 /* Empresa.m in Sources */ = {isa = PBXBuildFile; fileRef = 612201ED1B9F65AD00337693 /* Empresa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		612201DA1B9F58BB00337693 /* CatalogoEmpresasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatalogoEmpresasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		612201DF1B9F58BB00337693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		612201E01B9F58BB00337693 /* CatalogoEmpresasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatalogoEmpresasTests.m; sourceTree = "<group>"; };
+		612201EC1B9F65AD00337693 /* Empresa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empresa.h; sourceTree = "<group>"; };
+		612201ED1B9F65AD00337693 /* Empresa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empresa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				612201D11B9F58BB00337693 /* Images.xcassets */,
 				612201D31B9F58BB00337693 /* LaunchScreen.xib */,
 				612201C41B9F58BB00337693 /* Supporting Files */,
+				612201EC1B9F65AD00337693 /* Empresa.h */,
+				612201ED1B9F65AD00337693 /* Empresa.m */,
 			);
 			path = CatalogoEmpresas;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				612201CD1B9F58BB00337693 /* ViewController.m in Sources */,
+				612201EE1B9F65AD00337693 /* Empresa.m in Sources */,
 				612201CA1B9F58BB00337693 /* AppDelegate.m in Sources */,
 				612201C71B9F58BB00337693 /* main.m in Sources */,
 			);
